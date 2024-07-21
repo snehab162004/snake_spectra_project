@@ -1,0 +1,26 @@
+Name,Color,Scales,Venomous,Location,Family,Category,Image_Path,Label
+King Cobra,Yellow,Smooth,Yes,Western Ghats and Eastern Ghats and Northeast India,Elapidae,Elapid,"snakes_images/Cobra.jpeg",1
+King Cobra,Black,Smooth,Yes,Western Ghats and Eastern Ghats and Northeast India,Elapidae,Elapid,"snakes_images/king_black.jpeg",1
+Python,Yellow,Smooth,No,Throughout India,Pythonidae,Constrictor,"snakes_images/Python.jpeg",0
+Python,Black,Smooth,No,Throughout India,Pythonidae,Constrictor,"snakes_images/python_black.jpeg",0
+Rattlesnake,Brown,Scaly,Yes,North America,Viperidae,Viper,"snakes_images/rattlesnake_brown.jpeg",1
+Corn Snake,Red,Smooth,No,North America,Colubridae,Colubrid,"snakes_images/corn_snake.jpeg",0
+Black Mamba,Black,Smooth,Yes,Africa,Elapidae,Elapid,"snakes_images/Black_black.jpeg",1
+Black Mamba,Silver,Smooth,Yes,Africa,Elapidae,Elapid,"snakes_images/Black_silver.jpeg",1
+Boa Constrictor,Gray,Scaly,No,South America,Boidae,Constrictor,"snakes_images/Boa_Gray.jpeg",0
+Boa Constrictor,Brown,Scaly,No,South America,Boidae,Constrictor,"snakes_images/Boa_brown.jpeg",0
+Garter Snake,Green,Smooth,No,North America,Colubridae,Colubrid,"snakes_images/Garter_green.jpeg",0
+Garter Snake,Yellow,Smooth,No,North America,Colubridae,Colubrid,"snakes_images/Garter_yellow.jpeg",0
+Copperhead,Red,Scaly,Yes,North America,Viperidae,Viper,"snakes_images/Copperhead_red.jpeg",1
+Copperhead,Brown,Scaly,Yes,North America,Viperidae,Viper,"snakes_images/Copperhead_brown.jpeg",1
+Green Tree Python,Green,Smooth,No,Australia,Pythonidae,Constrictor,"snakes_images/Green_Tree.jpeg",0
+Viper,Gray,Scaly,Yes,Worldwide,Viperidae,Viper,"snakes_images/Viper_Gray.jpeg",1
+Viper,Green,Scaly,Yes,Worldwide,Viperidae,Viper,"snakes_images/Viper.jpeg",1
+Anaconda,Green,Scaly,No,South America,Boidae,Constrictor,"snakes_images/Anakonda_Green.jpeg",0
+Anaconda,Black,Scaly,No,South America,Boidae,Constrictor,"snakes_images/Anakonda.jpeg",0
+Coral Snake,Red,Smooth,Yes,Americas,Elapidae,Elapid,"snakes_images/Coral_red.jpeg",1
+Coral Snake,Yellow,Smooth,Yes,Americas,Elapidae,Elapid,"snakes_images/Coral_yellow.jpeg",1
+Coral Snake,Black,Smooth,Yes,Americas,Elapidae,Elapid,"snakes_images/Coral_black.jpeg",1
+Milk Snake,Red,Smooth,No,Americas,Colubridae,Colubrid,"snakes_images/Milk_red.jpeg",0
+Milk Snake,White,Smooth,No,Americas,Colubridae,Colubrid,"snakes_images/Milk_White.jpeg",0
+Milk Snake,Black,Smooth,No,Americas,Colubridae,Colubrid,"snakes_images/Milk_Black.jpeg",0
