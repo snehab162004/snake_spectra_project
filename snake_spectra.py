@@ -12,8 +12,15 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load and update the dataset
 df = pd.read_csv('datasets_hackathon.csv')
 
+# Function to check and update the Image_Path
+def update_image_path(row):
+    expected_path = f"snakes_images/{row['Name'].replace(' ', '_')}.jpeg"
+    if not os.path.exists(row['Image_Path']):
+        return expected_path
+    return row['Image_Path']
+
 # Correct the paths in the Image_Path column
-df['Image_Path'] = df.apply(lambda row: f"snakes_images/{row['Name'].replace(' ', '_')}.jpeg", axis=1)
+df['Image_Path'] = df.apply(update_image_path, axis=1)
 
 # Save the updated dataset to a new CSV file
 df.to_csv('datasets_hackathon_updated.csv', index=False)
@@ -28,7 +35,6 @@ def load_and_preprocess_image(image_path, target_size=(128, 128)):
     if not os.path.exists(image_path):
         print(f"File not found: {image_path}")
         return None
-    print(f"Loading image from path: {image_path}")  # Debug statement
     img = load_img(image_path, target_size=target_size)  # Ensure all images are the same size
     img_array = img_to_array(img)
     img_array = img_array / 255.0 
@@ -39,8 +45,6 @@ def load_data(df):
     images = []
     labels = []
     for index, row in df.iterrows():
-        print(type(row))  # Print the type of row
-        print(row)  # Print the content of row
         image_path = row['Image_Path']
         label = row['Label']
         img_array = load_and_preprocess_image(image_path)
